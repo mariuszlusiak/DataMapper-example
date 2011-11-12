@@ -1,0 +1,4 @@
+RVM='1.9.3@railsberry-datamapper'
+rvm use $RVM --create
+rvm wrapper $RVM textmate
+
