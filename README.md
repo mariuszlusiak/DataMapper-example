@@ -4,7 +4,7 @@
 
     bundle exec irb -r ./setup_redis.rb
 
-    bundlex exec irb -r ./setup_mongo.rb
+    bundle exec irb -r ./setup_mongo.rb
 
     Post.create(
       :title      => "My first DataMapper post",
